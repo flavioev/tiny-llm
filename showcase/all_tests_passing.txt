@@ -1,0 +1,33 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.17, pytest-9.2.0, pluggy-1.7.0 -- /Users/flavioevangelista/dev/tiny-llm/.venv/bin/python3.11
+cachedir: .pytest_cache
+rootdir: /Users/flavioevangelista/dev/tiny-llm
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 23 items
+
+tests/test_stage1_tokenizer.py::test_1_1_get_stats PASSED                [  4%]
+tests/test_stage1_tokenizer.py::test_1_2_merge PASSED                    [  8%]
+tests/test_stage1_tokenizer.py::test_1_3_train_reaches_vocab_and_learns_frequent_pieces PASSED [ 13%]
+tests/test_stage1_tokenizer.py::test_1_4_roundtrip_and_compression PASSED [ 17%]
+tests/test_stage1_tokenizer.py::test_special_token_and_save_load PASSED  [ 21%]
+tests/test_stage2_attention.py::test_2_1_matches_pytorch_reference PASSED [ 26%]
+tests/test_stage2_attention.py::test_2_1_is_causal PASSED                [ 30%]
+tests/test_stage2_attention.py::test_2_1_first_token_attends_only_to_itself PASSED [ 34%]
+tests/test_stage3_modern.py::test_3_1_rmsnorm PASSED                     [ 39%]
+tests/test_stage3_modern.py::test_3_2_rope_tables PASSED                 [ 43%]
+tests/test_stage3_modern.py::test_3_3_rope_preserves_norm PASSED         [ 47%]
+tests/test_stage3_modern.py::test_3_3_rope_depends_only_on_relative_position PASSED [ 52%]
+tests/test_stage3_modern.py::test_3_4_repeat_kv PASSED                   [ 56%]
+tests/test_stage3_modern.py::test_3_5_swiglu PASSED                      [ 60%]
+tests/test_stage3_modern.py::test_3_6_multihead_module_shapes_and_flash_equivalence PASSED [ 65%]
+tests/test_stage4_model.py::test_4_1_block_is_residual PASSED            [ 69%]
+tests/test_stage4_model.py::test_4_2_forward_shapes_and_initial_loss PASSED [ 73%]
+tests/test_stage4_model.py::test_4_2_model_is_causal_end_to_end PASSED   [ 78%]
+tests/test_stage4_model.py::test_4_2_can_memorize_one_batch PASSED       [ 82%]
+tests/test_stage4_model.py::test_4_3_generate PASSED                     [ 86%]
+tests/test_stage5_training.py::test_5_1_get_batch_targets_are_shifted_inputs PASSED [ 91%]
+tests/test_stage5_training.py::test_5_2_lr_schedule PASSED               [ 95%]
+tests/test_stage5_training.py::test_5_3_train_step_reduces_loss PASSED   [100%]
+
+============================== 23 passed in 1.02s ==============================

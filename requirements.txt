@@ -1,0 +1,9 @@
+torch>=2.3
+numpy
+regex
+requests
+matplotlib
+pytest
+pyarrow
+huggingface_hub
+jupyter   # optional: notebooks/

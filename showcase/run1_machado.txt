@@ -1,0 +1,291 @@
+device=mps | params=10.23M | train tokens=1.19M | val tokens=0.13M
+tokens/step=8192 | epochs over the data ≈ 34.4
+--- iter 0: train 7.657 | val 7.646 | ppl 2092.2
+iter     0/5000 | loss 7.671 | lr 5.00e-06 | 0.9k tok/s | elapsed  0.2 min | left ~791.6 min
+iter    20/5000 | loss 6.873 | lr 1.05e-04 | 37.0k tok/s | elapsed  0.2 min | left ~55.1 min
+--- iter 25: train 6.712 | val 6.706 | ppl 817.6
+iter    40/5000 | loss 6.284 | lr 2.05e-04 | 14.1k tok/s | elapsed  0.4 min | left ~51.6 min
+--- iter 50: train 6.041 | val 6.045 | ppl 421.9
+iter    60/5000 | loss 5.811 | lr 3.05e-04 | 14.1k tok/s | elapsed  0.6 min | left ~50.2 min
+iter    80/5000 | loss 5.334 | lr 4.05e-04 | 37.0k tok/s | elapsed  0.7 min | left ~42.1 min
+--- iter 100: train 4.938 | val 4.973 | ppl 144.4
+iter   100/5000 | loss 5.028 | lr 5.05e-04 | 14.1k tok/s | elapsed  0.9 min | left ~43.0 min
+iter   120/5000 | loss 4.799 | lr 6.05e-04 | 37.0k tok/s | elapsed  1.0 min | left ~38.8 min
+iter   140/5000 | loss 4.562 | lr 7.05e-04 | 37.0k tok/s | elapsed  1.0 min | left ~35.7 min
+--- iter 150: train 4.503 | val 4.522 | ppl 92.0
+iter   160/5000 | loss 4.378 | lr 8.05e-04 | 13.7k tok/s | elapsed  1.2 min | left ~37.1 min
+iter   180/5000 | loss 4.392 | lr 9.05e-04 | 36.4k tok/s | elapsed  1.3 min | left ~34.9 min
+--- iter 200: train 4.248 | val 4.305 | ppl 74.1
+iter   200/5000 | loss 4.228 | lr 1.00e-03 | 13.9k tok/s | elapsed  1.5 min | left ~35.9 min
+iter   220/5000 | loss 4.182 | lr 1.00e-03 | 36.3k tok/s | elapsed  1.6 min | left ~34.2 min
+iter   240/5000 | loss 4.152 | lr 1.00e-03 | 36.2k tok/s | elapsed  1.7 min | left ~32.7 min
+--- iter 250: train 4.035 | val 4.103 | ppl 60.5
+iter   260/5000 | loss 4.119 | lr 1.00e-03 | 14.8k tok/s | elapsed  1.8 min | left ~33.4 min
+iter   280/5000 | loss 4.004 | lr 9.99e-04 | 35.2k tok/s | elapsed  1.9 min | left ~32.2 min
+--- iter 300: train 3.867 | val 3.982 | ppl 53.6
+iter   300/5000 | loss 3.858 | lr 9.99e-04 | 13.7k tok/s | elapsed  2.1 min | left ~33.0 min
+iter   320/5000 | loss 3.852 | lr 9.99e-04 | 35.3k tok/s | elapsed  2.2 min | left ~32.0 min
+iter   340/5000 | loss 3.696 | lr 9.98e-04 | 36.5k tok/s | elapsed  2.3 min | left ~31.0 min
+iter   360/5000 | loss 3.787 | lr 9.98e-04 | 36.5k tok/s | elapsed  2.3 min | left ~30.1 min
+iter   380/5000 | loss 3.798 | lr 9.97e-04 | 36.4k tok/s | elapsed  2.4 min | left ~29.3 min
+--- iter 400: train 3.636 | val 3.780 | ppl 43.8
+iter   400/5000 | loss 3.647 | lr 9.96e-04 | 13.7k tok/s | elapsed  2.6 min | left ~30.0 min
+iter   420/5000 | loss 3.663 | lr 9.95e-04 | 36.5k tok/s | elapsed  2.7 min | left ~29.3 min
+iter   440/5000 | loss 3.612 | lr 9.94e-04 | 34.4k tok/s | elapsed  2.8 min | left ~28.7 min
+iter   460/5000 | loss 3.572 | lr 9.94e-04 | 36.0k tok/s | elapsed  2.8 min | left ~28.0 min
+iter   480/5000 | loss 3.489 | lr 9.92e-04 | 36.6k tok/s | elapsed  2.9 min | left ~27.5 min
+--- iter 500: train 3.481 | val 3.672 | ppl 39.3
+>>>   --Mansouras?  --Não é o meu paiz, senhor.  --Não. Vamos?  --Verando.  --Oh!  Ah! exclamou Rubião.  E a viuva deixou-se em dizer o Dr. Minter, que é assim que a senhora saiu em casa, em
+iter   500/5000 | loss 3.522 | lr 9.91e-04 | 13.2k tok/s | elapsed  3.1 min | left ~28.1 min
+iter   520/5000 | loss 3.510 | lr 9.90e-04 | 36.7k tok/s | elapsed  3.2 min | left ~27.6 min
+iter   540/5000 | loss 3.352 | lr 9.89e-04 | 36.6k tok/s | elapsed  3.3 min | left ~27.0 min
+iter   560/5000 | loss 3.433 | lr 9.88e-04 | 36.7k tok/s | elapsed  3.4 min | left ~26.5 min
+iter   580/5000 | loss 3.428 | lr 9.86e-04 | 36.6k tok/s | elapsed  3.4 min | left ~26.1 min
+iter   600/5000 | loss 3.334 | lr 9.85e-04 | 36.4k tok/s | elapsed  3.5 min | left ~25.6 min
+iter   620/5000 | loss 3.503 | lr 9.83e-04 | 36.5k tok/s | elapsed  3.6 min | left ~25.2 min
+iter   640/5000 | loss 3.335 | lr 9.81e-04 | 36.3k tok/s | elapsed  3.7 min | left ~24.8 min
+iter   660/5000 | loss 3.371 | lr 9.80e-04 | 36.3k tok/s | elapsed  3.7 min | left ~24.5 min
+iter   680/5000 | loss 3.302 | lr 9.78e-04 | 36.5k tok/s | elapsed  3.8 min | left ~24.1 min
+iter   700/5000 | loss 3.374 | lr 9.76e-04 | 35.5k tok/s | elapsed  3.9 min | left ~23.8 min
+iter   720/5000 | loss 3.358 | lr 9.74e-04 | 35.9k tok/s | elapsed  4.0 min | left ~23.5 min
+iter   740/5000 | loss 3.389 | lr 9.72e-04 | 35.3k tok/s | elapsed  4.0 min | left ~23.2 min
+--- iter 750: train 3.231 | val 3.578 | ppl 35.8
+iter   760/5000 | loss 3.328 | lr 9.70e-04 | 13.3k tok/s | elapsed  4.2 min | left ~23.6 min
+iter   780/5000 | loss 3.266 | lr 9.68e-04 | 36.2k tok/s | elapsed  4.3 min | left ~23.3 min
+iter   800/5000 | loss 3.333 | lr 9.66e-04 | 35.0k tok/s | elapsed  4.4 min | left ~23.0 min
+iter   820/5000 | loss 3.328 | lr 9.63e-04 | 35.2k tok/s | elapsed  4.5 min | left ~22.8 min
+iter   840/5000 | loss 3.306 | lr 9.61e-04 | 35.7k tok/s | elapsed  4.5 min | left ~22.5 min
+iter   860/5000 | loss 3.239 | lr 9.59e-04 | 34.4k tok/s | elapsed  4.6 min | left ~22.2 min
+iter   880/5000 | loss 3.176 | lr 9.56e-04 | 34.1k tok/s | elapsed  4.7 min | left ~22.0 min
+iter   900/5000 | loss 3.265 | lr 9.54e-04 | 36.6k tok/s | elapsed  4.8 min | left ~21.7 min
+iter   920/5000 | loss 3.197 | lr 9.51e-04 | 36.7k tok/s | elapsed  4.9 min | left ~21.5 min
+iter   940/5000 | loss 3.176 | lr 9.48e-04 | 36.6k tok/s | elapsed  4.9 min | left ~21.3 min
+iter   960/5000 | loss 3.116 | lr 9.45e-04 | 35.6k tok/s | elapsed  5.0 min | left ~21.0 min
+iter   980/5000 | loss 3.135 | lr 9.43e-04 | 35.5k tok/s | elapsed  5.1 min | left ~20.8 min
+--- iter 1000: train 3.038 | val 3.513 | ppl 33.5
+>>>   --Ha-de contar-te tudo; mas eu fique-te um dia, não é só a mesma cousa. Eu, não creio que tenho eu de dar uma razão de um gesto de esperança.  --Nunca, respondeu elle; é o que me negára, mas ainda o tempo póde ser um homem, que não me acho em mim.  
+iter  1000/5000 | loss 3.192 | lr 9.40e-04 | 13.2k tok/s | elapsed  5.3 min | left ~21.1 min
+iter  1020/5000 | loss 3.088 | lr 9.37e-04 | 36.2k tok/s | elapsed  5.4 min | left ~20.9 min
+iter  1040/5000 | loss 3.130 | lr 9.34e-04 | 36.1k tok/s | elapsed  5.4 min | left ~20.7 min
+iter  1060/5000 | loss 3.037 | lr 9.31e-04 | 36.2k tok/s | elapsed  5.5 min | left ~20.5 min
+iter  1080/5000 | loss 3.032 | lr 9.27e-04 | 36.2k tok/s | elapsed  5.6 min | left ~20.3 min
+iter  1100/5000 | loss 3.126 | lr 9.24e-04 | 36.2k tok/s | elapsed  5.7 min | left ~20.1 min
+iter  1120/5000 | loss 3.026 | lr 9.21e-04 | 36.3k tok/s | elapsed  5.7 min | left ~19.9 min
+iter  1140/5000 | loss 3.014 | lr 9.17e-04 | 35.6k tok/s | elapsed  5.8 min | left ~19.7 min
+iter  1160/5000 | loss 2.996 | lr 9.14e-04 | 34.0k tok/s | elapsed  5.9 min | left ~19.5 min
+iter  1180/5000 | loss 2.957 | lr 9.11e-04 | 34.1k tok/s | elapsed  6.0 min | left ~19.3 min
+iter  1200/5000 | loss 3.013 | lr 9.07e-04 | 33.8k tok/s | elapsed  6.1 min | left ~19.2 min
+iter  1220/5000 | loss 3.028 | lr 9.03e-04 | 33.6k tok/s | elapsed  6.1 min | left ~19.0 min
+iter  1240/5000 | loss 2.981 | lr 9.00e-04 | 32.6k tok/s | elapsed  6.2 min | left ~18.9 min
+--- iter 1250: train 2.887 | val 3.516 | ppl 33.7
+iter  1260/5000 | loss 2.971 | lr 8.96e-04 | 14.7k tok/s | elapsed  6.4 min | left ~19.0 min
+iter  1280/5000 | loss 2.974 | lr 8.92e-04 | 35.6k tok/s | elapsed  6.5 min | left ~18.8 min
+iter  1300/5000 | loss 2.940 | lr 8.88e-04 | 35.4k tok/s | elapsed  6.6 min | left ~18.7 min
+iter  1320/5000 | loss 2.972 | lr 8.84e-04 | 35.3k tok/s | elapsed  6.6 min | left ~18.5 min
+iter  1340/5000 | loss 2.915 | lr 8.80e-04 | 35.5k tok/s | elapsed  6.7 min | left ~18.3 min
+iter  1360/5000 | loss 2.929 | lr 8.76e-04 | 35.4k tok/s | elapsed  6.8 min | left ~18.2 min
+iter  1380/5000 | loss 3.014 | lr 8.72e-04 | 35.4k tok/s | elapsed  6.9 min | left ~18.0 min
+iter  1400/5000 | loss 2.880 | lr 8.68e-04 | 35.4k tok/s | elapsed  7.0 min | left ~17.9 min
+iter  1420/5000 | loss 2.934 | lr 8.64e-04 | 34.2k tok/s | elapsed  7.0 min | left ~17.7 min
+iter  1440/5000 | loss 2.850 | lr 8.60e-04 | 33.5k tok/s | elapsed  7.1 min | left ~17.6 min
+iter  1460/5000 | loss 2.851 | lr 8.55e-04 | 32.6k tok/s | elapsed  7.2 min | left ~17.4 min
+iter  1480/5000 | loss 2.813 | lr 8.51e-04 | 33.5k tok/s | elapsed  7.3 min | left ~17.3 min
+--- iter 1500: train 2.743 | val 3.513 | ppl 33.5
+>>>   E, ha duas semanas o Sr. Perpetua que soubera, e não chegará a repugnancia como nos primeiros dias; é que a mesma cousa é que é a necessidade de saber como diga que os outros animaes e o os homens. Nossa occasião, se alguma cousa original, é o que se
+iter  1500/5000 | loss 3.015 | lr 8.47e-04 | 12.8k tok/s | elapsed  7.5 min | left ~17.5 min
+iter  1520/5000 | loss 2.843 | lr 8.42e-04 | 35.7k tok/s | elapsed  7.6 min | left ~17.3 min
+iter  1540/5000 | loss 2.811 | lr 8.38e-04 | 35.1k tok/s | elapsed  7.6 min | left ~17.2 min
+iter  1560/5000 | loss 2.926 | lr 8.33e-04 | 30.7k tok/s | elapsed  7.7 min | left ~17.0 min
+iter  1580/5000 | loss 2.837 | lr 8.29e-04 | 33.8k tok/s | elapsed  7.8 min | left ~16.9 min
+iter  1600/5000 | loss 2.857 | lr 8.24e-04 | 33.3k tok/s | elapsed  7.9 min | left ~16.8 min
+iter  1620/5000 | loss 2.728 | lr 8.19e-04 | 33.7k tok/s | elapsed  8.0 min | left ~16.6 min
+iter  1640/5000 | loss 2.724 | lr 8.15e-04 | 34.1k tok/s | elapsed  8.1 min | left ~16.5 min
+iter  1660/5000 | loss 2.753 | lr 8.10e-04 | 34.5k tok/s | elapsed  8.1 min | left ~16.4 min
+iter  1680/5000 | loss 2.765 | lr 8.05e-04 | 33.2k tok/s | elapsed  8.2 min | left ~16.2 min
+iter  1700/5000 | loss 2.794 | lr 8.00e-04 | 30.5k tok/s | elapsed  8.3 min | left ~16.1 min
+iter  1720/5000 | loss 2.743 | lr 7.95e-04 | 32.4k tok/s | elapsed  8.4 min | left ~16.0 min
+iter  1740/5000 | loss 2.626 | lr 7.90e-04 | 32.7k tok/s | elapsed  8.5 min | left ~15.9 min
+--- iter 1750: train 2.577 | val 3.557 | ppl 35.1
+iter  1760/5000 | loss 2.701 | lr 7.85e-04 | 13.7k tok/s | elapsed  8.7 min | left ~16.0 min
+iter  1780/5000 | loss 2.747 | lr 7.80e-04 | 34.8k tok/s | elapsed  8.8 min | left ~15.8 min
+iter  1800/5000 | loss 2.629 | lr 7.75e-04 | 35.6k tok/s | elapsed  8.8 min | left ~15.7 min
+iter  1820/5000 | loss 2.704 | lr 7.70e-04 | 36.5k tok/s | elapsed  8.9 min | left ~15.5 min
+iter  1840/5000 | loss 2.751 | lr 7.65e-04 | 36.6k tok/s | elapsed  9.0 min | left ~15.4 min
+iter  1860/5000 | loss 2.717 | lr 7.60e-04 | 36.6k tok/s | elapsed  9.1 min | left ~15.3 min
+iter  1880/5000 | loss 2.654 | lr 7.54e-04 | 36.5k tok/s | elapsed  9.1 min | left ~15.1 min
+iter  1900/5000 | loss 2.677 | lr 7.49e-04 | 36.6k tok/s | elapsed  9.2 min | left ~15.0 min
+iter  1920/5000 | loss 2.670 | lr 7.44e-04 | 36.1k tok/s | elapsed  9.3 min | left ~14.9 min
+iter  1940/5000 | loss 2.703 | lr 7.38e-04 | 36.1k tok/s | elapsed  9.4 min | left ~14.7 min
+iter  1960/5000 | loss 2.679 | lr 7.33e-04 | 36.5k tok/s | elapsed  9.4 min | left ~14.6 min
+iter  1980/5000 | loss 2.746 | lr 7.28e-04 | 36.3k tok/s | elapsed  9.5 min | left ~14.5 min
+--- iter 2000: train 2.444 | val 3.588 | ppl 36.2
+>>>    --Estamos? perguntei eu ao conselheiro.  --Em caminho, disse Estacio; é a mesma cousa.  --Talvez não tenha razão.  --Oh!  --Mas de certo! Não sei se o conselheiro não tivemos na mesma familia. Agora mesmo é que lhe peço que fique bom,--ou já
+iter  2000/5000 | loss 2.694 | lr 7.22e-04 | 13.1k tok/s | elapsed  9.7 min | left ~14.6 min
+iter  2020/5000 | loss 2.650 | lr 7.17e-04 | 36.2k tok/s | elapsed  9.8 min | left ~14.4 min
+iter  2040/5000 | loss 2.661 | lr 7.11e-04 | 36.4k tok/s | elapsed  9.9 min | left ~14.3 min
+iter  2060/5000 | loss 2.627 | lr 7.06e-04 | 35.7k tok/s | elapsed  9.9 min | left ~14.2 min
+iter  2080/5000 | loss 2.665 | lr 7.00e-04 | 34.6k tok/s | elapsed 10.0 min | left ~14.1 min
+iter  2100/5000 | loss 2.688 | lr 6.95e-04 | 34.5k tok/s | elapsed 10.1 min | left ~13.9 min
+iter  2120/5000 | loss 2.552 | lr 6.89e-04 | 35.9k tok/s | elapsed 10.2 min | left ~13.8 min
+iter  2140/5000 | loss 2.551 | lr 6.83e-04 | 36.4k tok/s | elapsed 10.2 min | left ~13.7 min
+iter  2160/5000 | loss 2.576 | lr 6.78e-04 | 36.5k tok/s | elapsed 10.3 min | left ~13.6 min
+iter  2180/5000 | loss 2.433 | lr 6.72e-04 | 36.5k tok/s | elapsed 10.4 min | left ~13.4 min
+iter  2200/5000 | loss 2.607 | lr 6.66e-04 | 36.6k tok/s | elapsed 10.5 min | left ~13.3 min
+iter  2220/5000 | loss 2.450 | lr 6.61e-04 | 36.7k tok/s | elapsed 10.5 min | left ~13.2 min
+iter  2240/5000 | loss 2.476 | lr 6.55e-04 | 36.6k tok/s | elapsed 10.6 min | left ~13.1 min
+--- iter 2250: train 2.285 | val 3.627 | ppl 37.6
+iter  2260/5000 | loss 2.473 | lr 6.49e-04 | 15.3k tok/s | elapsed 10.8 min | left ~13.1 min
+iter  2280/5000 | loss 2.472 | lr 6.44e-04 | 36.6k tok/s | elapsed 10.9 min | left ~13.0 min
+iter  2300/5000 | loss 2.504 | lr 6.38e-04 | 35.9k tok/s | elapsed 11.0 min | left ~12.8 min
+iter  2320/5000 | loss 2.513 | lr 6.32e-04 | 36.7k tok/s | elapsed 11.0 min | left ~12.7 min
+iter  2340/5000 | loss 2.377 | lr 6.26e-04 | 36.7k tok/s | elapsed 11.1 min | left ~12.6 min
+iter  2360/5000 | loss 2.510 | lr 6.20e-04 | 36.7k tok/s | elapsed 11.2 min | left ~12.5 min
+iter  2380/5000 | loss 2.448 | lr 6.15e-04 | 36.8k tok/s | elapsed 11.3 min | left ~12.4 min
+iter  2400/5000 | loss 2.378 | lr 6.09e-04 | 36.6k tok/s | elapsed 11.3 min | left ~12.3 min
+iter  2420/5000 | loss 2.538 | lr 6.03e-04 | 36.6k tok/s | elapsed 11.4 min | left ~12.1 min
+iter  2440/5000 | loss 2.478 | lr 5.97e-04 | 36.4k tok/s | elapsed 11.5 min | left ~12.0 min
+iter  2460/5000 | loss 2.476 | lr 5.91e-04 | 36.8k tok/s | elapsed 11.5 min | left ~11.9 min
+iter  2480/5000 | loss 2.456 | lr 5.85e-04 | 36.8k tok/s | elapsed 11.6 min | left ~11.8 min
+--- iter 2500: train 2.141 | val 3.674 | ppl 39.4
+>>>   --Foi hontem, mas eu espere, que lhe diga o meu caso.  --E se o senhor entrou?  --Para que?  --Não; mas não desejo, não poderia aturar...  --E se eu desejo.... Agora se lembraram delle...  --Tudo o que me parece?  --
+iter  2500/5000 | loss 2.379 | lr 5.79e-04 | 13.5k tok/s | elapsed 11.8 min | left ~11.8 min
+iter  2520/5000 | loss 2.560 | lr 5.74e-04 | 36.8k tok/s | elapsed 11.9 min | left ~11.7 min
+iter  2540/5000 | loss 2.343 | lr 5.68e-04 | 36.8k tok/s | elapsed 12.0 min | left ~11.6 min
+iter  2560/5000 | loss 2.438 | lr 5.62e-04 | 36.8k tok/s | elapsed 12.0 min | left ~11.5 min
+iter  2580/5000 | loss 2.296 | lr 5.56e-04 | 35.8k tok/s | elapsed 12.1 min | left ~11.4 min
+iter  2600/5000 | loss 2.358 | lr 5.50e-04 | 36.3k tok/s | elapsed 12.2 min | left ~11.3 min
+iter  2620/5000 | loss 2.458 | lr 5.44e-04 | 36.5k tok/s | elapsed 12.3 min | left ~11.1 min
+iter  2640/5000 | loss 2.288 | lr 5.38e-04 | 36.2k tok/s | elapsed 12.3 min | left ~11.0 min
+iter  2660/5000 | loss 2.462 | lr 5.32e-04 | 36.2k tok/s | elapsed 12.4 min | left ~10.9 min
+iter  2680/5000 | loss 2.260 | lr 5.26e-04 | 33.3k tok/s | elapsed 12.5 min | left ~10.8 min
+iter  2700/5000 | loss 2.298 | lr 5.21e-04 | 35.6k tok/s | elapsed 12.6 min | left ~10.7 min
+iter  2720/5000 | loss 2.295 | lr 5.15e-04 | 35.3k tok/s | elapsed 12.7 min | left ~10.6 min
+iter  2740/5000 | loss 2.400 | lr 5.09e-04 | 36.8k tok/s | elapsed 12.7 min | left ~10.5 min
+--- iter 2750: train 2.013 | val 3.690 | ppl 40.0
+iter  2760/5000 | loss 2.314 | lr 5.03e-04 | 15.5k tok/s | elapsed 12.9 min | left ~10.5 min
+iter  2780/5000 | loss 2.338 | lr 4.97e-04 | 36.9k tok/s | elapsed 13.0 min | left ~10.4 min
+iter  2800/5000 | loss 2.298 | lr 4.91e-04 | 36.9k tok/s | elapsed 13.1 min | left ~10.3 min
+iter  2820/5000 | loss 2.305 | lr 4.85e-04 | 36.8k tok/s | elapsed 13.1 min | left ~10.1 min
+iter  2840/5000 | loss 2.334 | lr 4.80e-04 | 36.6k tok/s | elapsed 13.2 min | left ~10.0 min
+iter  2860/5000 | loss 2.238 | lr 4.74e-04 | 36.8k tok/s | elapsed 13.3 min | left ~ 9.9 min
+iter  2880/5000 | loss 2.311 | lr 4.68e-04 | 36.8k tok/s | elapsed 13.4 min | left ~ 9.8 min
+iter  2900/5000 | loss 2.229 | lr 4.62e-04 | 36.9k tok/s | elapsed 13.4 min | left ~ 9.7 min
+iter  2920/5000 | loss 2.204 | lr 4.56e-04 | 36.9k tok/s | elapsed 13.5 min | left ~ 9.6 min
+iter  2940/5000 | loss 2.198 | lr 4.51e-04 | 36.9k tok/s | elapsed 13.6 min | left ~ 9.5 min
+iter  2960/5000 | loss 2.265 | lr 4.45e-04 | 37.0k tok/s | elapsed 13.7 min | left ~ 9.4 min
+iter  2980/5000 | loss 2.171 | lr 4.39e-04 | 37.0k tok/s | elapsed 13.7 min | left ~ 9.3 min
+--- iter 3000: train 1.888 | val 3.761 | ppl 43.0
+>>>   Confeitamente o que se passou na rua, vieram outros domingo. Emfim, encontrou-o defronte de si, e foi andando. Achou-o outra vez na sala, em pé, com os olhos no mar, agarrou-se á meza, fitando-se, sem agradecer-lhe a benção. I
+iter  3000/5000 | loss 2.191 | lr 4.34e-04 | 13.6k tok/s | elapsed 13.9 min | left ~ 9.3 min
+iter  3020/5000 | loss 2.096 | lr 4.28e-04 | 36.9k tok/s | elapsed 14.0 min | left ~ 9.2 min
+iter  3040/5000 | loss 2.272 | lr 4.22e-04 | 36.9k tok/s | elapsed 14.1 min | left ~ 9.1 min
+iter  3060/5000 | loss 2.156 | lr 4.17e-04 | 36.9k tok/s | elapsed 14.1 min | left ~ 9.0 min
+iter  3080/5000 | loss 2.136 | lr 4.11e-04 | 36.9k tok/s | elapsed 14.2 min | left ~ 8.9 min
+iter  3100/5000 | loss 2.182 | lr 4.05e-04 | 36.9k tok/s | elapsed 14.3 min | left ~ 8.8 min
+iter  3120/5000 | loss 2.265 | lr 4.00e-04 | 37.0k tok/s | elapsed 14.4 min | left ~ 8.7 min
+iter  3140/5000 | loss 2.127 | lr 3.94e-04 | 36.9k tok/s | elapsed 14.4 min | left ~ 8.5 min
+iter  3160/5000 | loss 2.102 | lr 3.89e-04 | 37.0k tok/s | elapsed 14.5 min | left ~ 8.4 min
+iter  3180/5000 | loss 2.229 | lr 3.83e-04 | 36.9k tok/s | elapsed 14.6 min | left ~ 8.3 min
+iter  3200/5000 | loss 2.091 | lr 3.78e-04 | 36.9k tok/s | elapsed 14.7 min | left ~ 8.2 min
+iter  3220/5000 | loss 2.218 | lr 3.72e-04 | 37.0k tok/s | elapsed 14.7 min | left ~ 8.1 min
+iter  3240/5000 | loss 2.086 | lr 3.67e-04 | 36.9k tok/s | elapsed 14.8 min | left ~ 8.0 min
+--- iter 3250: train 1.782 | val 3.824 | ppl 45.8
+iter  3260/5000 | loss 2.119 | lr 3.62e-04 | 15.5k tok/s | elapsed 15.0 min | left ~ 8.0 min
+iter  3280/5000 | loss 2.141 | lr 3.56e-04 | 33.3k tok/s | elapsed 15.1 min | left ~ 7.9 min
+iter  3300/5000 | loss 2.081 | lr 3.51e-04 | 35.9k tok/s | elapsed 15.1 min | left ~ 7.8 min
+iter  3320/5000 | loss 2.178 | lr 3.46e-04 | 36.9k tok/s | elapsed 15.2 min | left ~ 7.7 min
+iter  3340/5000 | loss 2.101 | lr 3.40e-04 | 36.9k tok/s | elapsed 15.3 min | left ~ 7.6 min
+iter  3360/5000 | loss 2.091 | lr 3.35e-04 | 36.9k tok/s | elapsed 15.4 min | left ~ 7.5 min
+iter  3380/5000 | loss 2.061 | lr 3.30e-04 | 36.9k tok/s | elapsed 15.4 min | left ~ 7.4 min
+iter  3400/5000 | loss 2.078 | lr 3.25e-04 | 36.9k tok/s | elapsed 15.5 min | left ~ 7.3 min
+iter  3420/5000 | loss 1.985 | lr 3.20e-04 | 36.9k tok/s | elapsed 15.6 min | left ~ 7.2 min
+iter  3440/5000 | loss 2.089 | lr 3.15e-04 | 36.9k tok/s | elapsed 15.7 min | left ~ 7.1 min
+iter  3460/5000 | loss 2.129 | lr 3.10e-04 | 37.0k tok/s | elapsed 15.7 min | left ~ 7.0 min
+iter  3480/5000 | loss 2.147 | lr 3.05e-04 | 36.8k tok/s | elapsed 15.8 min | left ~ 6.9 min
+--- iter 3500: train 1.667 | val 3.881 | ppl 48.5
+>>>   MAGALHÃES  Porque?  D. ADELAIDE  Ou dez.  D. LEOCADIA  Ah!  MAGALHÃES  Não é caçoada; está a Montevius. Ainda
+iter  3500/5000 | loss 2.039 | lr 3.00e-04 | 14.9k tok/s | elapsed 16.0 min | left ~ 6.8 min
+iter  3520/5000 | loss 2.008 | lr 2.95e-04 | 36.5k tok/s | elapsed 16.1 min | left ~ 6.8 min
+iter  3540/5000 | loss 2.188 | lr 2.90e-04 | 36.6k tok/s | elapsed 16.1 min | left ~ 6.7 min
+iter  3560/5000 | loss 2.140 | lr 2.85e-04 | 36.3k tok/s | elapsed 16.2 min | left ~ 6.6 min
+iter  3580/5000 | loss 2.079 | lr 2.81e-04 | 36.3k tok/s | elapsed 16.3 min | left ~ 6.5 min
+iter  3600/5000 | loss 2.010 | lr 2.76e-04 | 36.7k tok/s | elapsed 16.4 min | left ~ 6.4 min
+iter  3620/5000 | loss 1.980 | lr 2.71e-04 | 35.9k tok/s | elapsed 16.4 min | left ~ 6.3 min
+iter  3640/5000 | loss 1.993 | lr 2.67e-04 | 34.8k tok/s | elapsed 16.5 min | left ~ 6.2 min
+iter  3660/5000 | loss 2.010 | lr 2.62e-04 | 34.6k tok/s | elapsed 16.6 min | left ~ 6.1 min
+iter  3680/5000 | loss 2.151 | lr 2.58e-04 | 34.7k tok/s | elapsed 16.7 min | left ~ 6.0 min
+iter  3700/5000 | loss 1.928 | lr 2.53e-04 | 35.6k tok/s | elapsed 16.8 min | left ~ 5.9 min
+iter  3720/5000 | loss 1.967 | lr 2.49e-04 | 35.1k tok/s | elapsed 16.8 min | left ~ 5.8 min
+iter  3740/5000 | loss 1.945 | lr 2.45e-04 | 35.8k tok/s | elapsed 16.9 min | left ~ 5.7 min
+--- iter 3750: train 1.573 | val 3.876 | ppl 48.2
+iter  3760/5000 | loss 2.087 | lr 2.40e-04 | 15.2k tok/s | elapsed 17.1 min | left ~ 5.6 min
+iter  3780/5000 | loss 2.132 | lr 2.36e-04 | 35.6k tok/s | elapsed 17.2 min | left ~ 5.5 min
+iter  3800/5000 | loss 1.964 | lr 2.32e-04 | 36.1k tok/s | elapsed 17.2 min | left ~ 5.4 min
+iter  3820/5000 | loss 1.987 | lr 2.28e-04 | 36.0k tok/s | elapsed 17.3 min | left ~ 5.3 min
+iter  3840/5000 | loss 1.887 | lr 2.24e-04 | 35.9k tok/s | elapsed 17.4 min | left ~ 5.2 min
+iter  3860/5000 | loss 2.023 | lr 2.20e-04 | 36.0k tok/s | elapsed 17.5 min | left ~ 5.2 min
+iter  3880/5000 | loss 1.997 | lr 2.16e-04 | 36.1k tok/s | elapsed 17.5 min | left ~ 5.1 min
+iter  3900/5000 | loss 1.909 | lr 2.12e-04 | 35.9k tok/s | elapsed 17.6 min | left ~ 5.0 min
+iter  3920/5000 | loss 1.997 | lr 2.08e-04 | 35.9k tok/s | elapsed 17.7 min | left ~ 4.9 min
+iter  3940/5000 | loss 1.894 | lr 2.04e-04 | 35.7k tok/s | elapsed 17.8 min | left ~ 4.8 min
+iter  3960/5000 | loss 1.980 | lr 2.00e-04 | 35.8k tok/s | elapsed 17.9 min | left ~ 4.7 min
+iter  3980/5000 | loss 1.969 | lr 1.97e-04 | 36.1k tok/s | elapsed 17.9 min | left ~ 4.6 min
+--- iter 4000: train 1.498 | val 3.945 | ppl 51.7
+>>>   --Não é preciso isso, não, papae?  --Não, senhor.  --Panegyrico de Santa Monica! Que é?  --É o que ella é, respondeu Jorge dando-lhe perdão a voz, e olhou para o tecto.  --Que é?  --Acceito
+iter  4000/5000 | loss 1.948 | lr 1.93e-04 | 13.5k tok/s | elapsed 18.1 min | left ~ 4.5 min
+iter  4020/5000 | loss 1.945 | lr 1.89e-04 | 36.0k tok/s | elapsed 18.2 min | left ~ 4.4 min
+iter  4040/5000 | loss 1.878 | lr 1.86e-04 | 36.3k tok/s | elapsed 18.3 min | left ~ 4.3 min
+iter  4060/5000 | loss 1.918 | lr 1.83e-04 | 36.5k tok/s | elapsed 18.4 min | left ~ 4.2 min
+iter  4080/5000 | loss 1.800 | lr 1.79e-04 | 36.5k tok/s | elapsed 18.4 min | left ~ 4.2 min
+iter  4100/5000 | loss 1.971 | lr 1.76e-04 | 36.3k tok/s | elapsed 18.5 min | left ~ 4.1 min
+iter  4120/5000 | loss 1.824 | lr 1.73e-04 | 36.3k tok/s | elapsed 18.6 min | left ~ 4.0 min
+iter  4140/5000 | loss 1.876 | lr 1.69e-04 | 36.4k tok/s | elapsed 18.7 min | left ~ 3.9 min
+iter  4160/5000 | loss 1.865 | lr 1.66e-04 | 36.6k tok/s | elapsed 18.7 min | left ~ 3.8 min
+iter  4180/5000 | loss 1.902 | lr 1.63e-04 | 36.7k tok/s | elapsed 18.8 min | left ~ 3.7 min
+iter  4200/5000 | loss 1.930 | lr 1.60e-04 | 35.8k tok/s | elapsed 18.9 min | left ~ 3.6 min
+iter  4220/5000 | loss 1.947 | lr 1.57e-04 | 35.4k tok/s | elapsed 19.0 min | left ~ 3.5 min
+iter  4240/5000 | loss 1.860 | lr 1.55e-04 | 34.2k tok/s | elapsed 19.0 min | left ~ 3.4 min
+--- iter 4250: train 1.424 | val 3.951 | ppl 52.0
+iter  4260/5000 | loss 1.916 | lr 1.52e-04 | 14.5k tok/s | elapsed 19.2 min | left ~ 3.3 min
+iter  4280/5000 | loss 1.961 | lr 1.49e-04 | 34.3k tok/s | elapsed 19.3 min | left ~ 3.2 min
+iter  4300/5000 | loss 1.840 | lr 1.46e-04 | 34.0k tok/s | elapsed 19.4 min | left ~ 3.2 min
+iter  4320/5000 | loss 1.838 | lr 1.44e-04 | 34.6k tok/s | elapsed 19.5 min | left ~ 3.1 min
+iter  4340/5000 | loss 1.871 | lr 1.41e-04 | 35.4k tok/s | elapsed 19.5 min | left ~ 3.0 min
+iter  4360/5000 | loss 1.822 | lr 1.39e-04 | 36.0k tok/s | elapsed 19.6 min | left ~ 2.9 min
+iter  4380/5000 | loss 1.852 | lr 1.37e-04 | 36.8k tok/s | elapsed 19.7 min | left ~ 2.8 min
+iter  4400/5000 | loss 1.809 | lr 1.34e-04 | 36.8k tok/s | elapsed 19.8 min | left ~ 2.7 min
+iter  4420/5000 | loss 1.737 | lr 1.32e-04 | 36.0k tok/s | elapsed 19.8 min | left ~ 2.6 min
+iter  4440/5000 | loss 1.932 | lr 1.30e-04 | 36.9k tok/s | elapsed 19.9 min | left ~ 2.5 min
+iter  4460/5000 | loss 1.793 | lr 1.28e-04 | 36.5k tok/s | elapsed 20.0 min | left ~ 2.4 min
+iter  4480/5000 | loss 1.875 | lr 1.26e-04 | 35.8k tok/s | elapsed 20.1 min | left ~ 2.3 min
+--- iter 4500: train 1.365 | val 4.010 | ppl 55.2
+>>>   A baroneza passou a noite commigo. Vim por lá vel-a. Achei-a mais bella, e a mais fina da noite, mais a noite que naquelle dia, como naquelle dia, e a noite veiu até á cidade, em que me recolher, em casa da baroneza definitivamente Luiz Alves. A baroneza não tinha nenhuma. Guiomar não pode ver a
+iter  4500/5000 | loss 1.849 | lr 1.24e-04 | 14.9k tok/s | elapsed 20.3 min | left ~ 2.2 min
+iter  4520/5000 | loss 1.836 | lr 1.22e-04 | 36.8k tok/s | elapsed 20.3 min | left ~ 2.2 min
+iter  4540/5000 | loss 1.874 | lr 1.20e-04 | 36.7k tok/s | elapsed 20.4 min | left ~ 2.1 min
+iter  4560/5000 | loss 1.877 | lr 1.19e-04 | 36.9k tok/s | elapsed 20.5 min | left ~ 2.0 min
+iter  4580/5000 | loss 1.788 | lr 1.17e-04 | 36.9k tok/s | elapsed 20.5 min | left ~ 1.9 min
+iter  4600/5000 | loss 1.854 | lr 1.15e-04 | 36.5k tok/s | elapsed 20.6 min | left ~ 1.8 min
+iter  4620/5000 | loss 1.762 | lr 1.14e-04 | 36.6k tok/s | elapsed 20.7 min | left ~ 1.7 min
+iter  4640/5000 | loss 1.866 | lr 1.12e-04 | 36.9k tok/s | elapsed 20.8 min | left ~ 1.6 min
+iter  4660/5000 | loss 1.849 | lr 1.11e-04 | 36.7k tok/s | elapsed 20.8 min | left ~ 1.5 min
+iter  4680/5000 | loss 1.915 | lr 1.10e-04 | 36.9k tok/s | elapsed 20.9 min | left ~ 1.4 min
+iter  4700/5000 | loss 1.812 | lr 1.09e-04 | 36.7k tok/s | elapsed 21.0 min | left ~ 1.3 min
+iter  4720/5000 | loss 1.788 | lr 1.08e-04 | 36.6k tok/s | elapsed 21.1 min | left ~ 1.2 min
+iter  4740/5000 | loss 1.677 | lr 1.06e-04 | 36.8k tok/s | elapsed 21.1 min | left ~ 1.2 min
+--- iter 4750: train 1.321 | val 4.035 | ppl 56.6
+iter  4760/5000 | loss 1.838 | lr 1.06e-04 | 15.3k tok/s | elapsed 21.3 min | left ~ 1.1 min
+iter  4780/5000 | loss 1.828 | lr 1.05e-04 | 35.6k tok/s | elapsed 21.4 min | left ~ 1.0 min
+iter  4800/5000 | loss 1.798 | lr 1.04e-04 | 36.2k tok/s | elapsed 21.5 min | left ~ 0.9 min
+iter  4820/5000 | loss 1.829 | lr 1.03e-04 | 36.8k tok/s | elapsed 21.6 min | left ~ 0.8 min
+iter  4840/5000 | loss 1.826 | lr 1.02e-04 | 36.2k tok/s | elapsed 21.6 min | left ~ 0.7 min
+iter  4860/5000 | loss 1.764 | lr 1.02e-04 | 36.7k tok/s | elapsed 21.7 min | left ~ 0.6 min
+iter  4880/5000 | loss 1.772 | lr 1.01e-04 | 34.9k tok/s | elapsed 21.8 min | left ~ 0.5 min
+iter  4900/5000 | loss 1.814 | lr 1.01e-04 | 34.0k tok/s | elapsed 21.9 min | left ~ 0.4 min
+iter  4920/5000 | loss 1.786 | lr 1.01e-04 | 33.3k tok/s | elapsed 21.9 min | left ~ 0.4 min
+iter  4940/5000 | loss 1.854 | lr 1.00e-04 | 33.3k tok/s | elapsed 22.0 min | left ~ 0.3 min
+iter  4960/5000 | loss 1.740 | lr 1.00e-04 | 33.6k tok/s | elapsed 22.1 min | left ~ 0.2 min
+iter  4980/5000 | loss 1.739 | lr 1.00e-04 | 33.8k tok/s | elapsed 22.2 min | left ~ 0.1 min
+--- iter 5000: train 1.282 | val 4.073 | ppl 58.7
+>>>   --Mas que é? perguntou o Senhor.  --Assim, sim.  --Póde ser, continuei eu, que não saia nunca sem recusa; se estiver certa disposição, não digo nada; creio que acceite com a presidencia. É verdade que não; mas emfim, ou por causa do preço que a pub
+done. best val loss 3.513 -> out/ckpt.pt, curve data -> out/log.csv, samples during training -> out/snapshots.jsonl

@@ -1,0 +1,71 @@
+corpus: 531.88M characters from data/pretrain/corpus.txt
+merge 1/3839: (32, 100) -> 256 ' d'
+merge 101/3839: (32, 283) -> 356 ' in'
+merge 201/3839: (109, 111) -> 456 'mo'
+merge 301/3839: (103, 275) -> 556 'gar'
+merge 401/3839: (458, 460) -> 656 ' muito'
+merge 501/3839: (115, 259) -> 756 'sos'
+merge 601/3839: (356, 100) -> 856 ' ind'
+merge 701/3839: (32, 365) -> 956 ' í'
+merge 801/3839: (102, 270) -> 1056 'for'
+merge 901/3839: (390, 112) -> 1156 ' exp'
+merge 1001/3839: (291, 104) -> 1256 'enh'
+merge 1101/3839: (449, 417) -> 1356 ' nosso'
+merge 1201/3839: (289, 527) -> 1456 'tando'
+merge 1301/3839: (480, 704) -> 1556 ' appar'
+merge 1401/3839: (46, 94) -> 1656 '.^'
+merge 1501/3839: (108, 707) -> 1756 'lhes'
+merge 1601/3839: (543, 116) -> 1856 ' cast'
+merge 1701/3839: (266, 263) -> 1956 'ques'
+merge 1801/3839: (294, 314) -> 2056 ' vio'
+merge 1901/3839: (342, 99) -> 2156 'resc'
+merge 2001/3839: (50, 53) -> 2256 '25'
+merge 2101/3839: (562, 1197) -> 2356 ' conserva'
+merge 2201/3839: (598, 824) -> 2456 ' mandar'
+merge 2301/3839: (32, 60) -> 2556 ' <'
+merge 2401/3839: (934, 584) -> 2656 ' publico'
+merge 2501/3839: (1150, 2639) -> 2756 ' simples'
+merge 2601/3839: (868, 289) -> 2856 ' volta'
+merge 2701/3839: (276, 428) -> 2956 ' tê'
+merge 2801/3839: (265, 105) -> 3056 ' dei'
+merge 2901/3839: (797, 350) -> 3156 ' tomou'
+merge 3001/3839: (84, 111) -> 3256 'To'
+merge 3101/3839: (294, 324) -> 3356 ' vil'
+merge 3201/3839: (625, 309) -> 3456 ' morto'
+merge 3301/3839: (400, 1772) -> 3556 ' Junho'
+merge 3401/3839: (114, 544) -> 3656 'rina'
+merge 3501/3839: (356, 536) -> 3756 ' indi'
+merge 3601/3839: (1615, 3607) -> 3856 'CAPITULO'
+merge 3701/3839: (642, 531) -> 3956 'ambém'
+merge 3801/3839: (539, 341) -> 4056 ' escon'
+merge 3839/3839: (122, 324) -> 4094 'zil'
+tokenizer trained in 444s, vocab_size=4096
+  encoded 100/1760 documents | 5.5M tokens | 0.0 min elapsed, ~0.5 left
+  encoded 200/1760 documents | 10.5M tokens | 0.1 min elapsed, ~0.4 left
+  encoded 300/1760 documents | 15.7M tokens | 0.1 min elapsed, ~0.3 left
+  encoded 400/1760 documents | 20.1M tokens | 0.1 min elapsed, ~0.3 left
+  encoded 500/1760 documents | 32.3M tokens | 0.1 min elapsed, ~0.3 left
+  encoded 600/1760 documents | 42.0M tokens | 0.2 min elapsed, ~0.3 left
+  encoded 700/1760 documents | 54.4M tokens | 0.2 min elapsed, ~0.3 left
+  encoded 800/1760 documents | 66.0M tokens | 0.3 min elapsed, ~0.3 left
+  encoded 900/1760 documents | 77.0M tokens | 0.3 min elapsed, ~0.3 left
+  encoded 1000/1760 documents | 89.3M tokens | 0.4 min elapsed, ~0.3 left
+  encoded 1100/1760 documents | 101.1M tokens | 0.4 min elapsed, ~0.2 left
+  encoded 1200/1760 documents | 112.2M tokens | 0.4 min elapsed, ~0.2 left
+  encoded 1300/1760 documents | 124.7M tokens | 0.5 min elapsed, ~0.2 left
+  encoded 1400/1760 documents | 137.5M tokens | 0.5 min elapsed, ~0.1 left
+  encoded 1500/1760 documents | 149.3M tokens | 0.6 min elapsed, ~0.1 left
+  encoded 1600/1760 documents | 160.9M tokens | 0.6 min elapsed, ~0.1 left
+  encoded 1700/1760 documents | 172.3M tokens | 0.7 min elapsed, ~0.0 left
+  encoded 1760/1760 documents | 177.9M tokens | 0.7 min elapsed, ~0.0 left
+{
+  "vocab_size": 4096,
+  "train_tokens": 160143703,
+  "val_tokens": 17794646,
+  "chars_per_token": 3.060792566980601,
+  "tokenizer": "data/pretrain/tokenizer.json",
+  "corpus": "data/pretrain/corpus.txt"
+}
+
+How the tokenizer cuts text:
+te| do| El|-|Do|rado| —| a| ful|g|ir| nas| are|ias| e| nos| cas|cal|hos|,| espada|n|ando| das| ent|ran|has| m|ist|er|iosas| e| apo|ja|das| do| No|vo|-|M|undo|,| a| pre|p|onde|ra|nte| viva|z| das| suas| fic|ções| é| sempre| a| im|ant|ada| â|ns|ia| —| pelo| ouro|!|,| fo

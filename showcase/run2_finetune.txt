@@ -1,0 +1,66 @@
+Loaded checkpoint out/pretrain/ckpt.pt from step 18000 with val loss 3.4336
+device=mps | params=11.02M | train tokens=1.13M | val tokens=0.13M
+tokens/step=8192 | epochs over the data ≈ 5.8
+--- iter 0: train 3.498 | val 3.443 | ppl 31.3
+iter     0/800 | loss 3.615 | lr 2.00e-06 | 1.2k tok/s | elapsed  0.1 min | left ~91.7 min
+iter    20/800 | loss 3.539 | lr 4.20e-05 | 35.9k tok/s | elapsed  0.2 min | left ~ 7.1 min
+--- iter 25: train 3.433 | val 3.408 | ppl 30.2
+iter    40/800 | loss 3.504 | lr 8.20e-05 | 15.1k tok/s | elapsed  0.4 min | left ~ 6.9 min
+--- iter 50: train 3.368 | val 3.332 | ppl 28.0
+iter    60/800 | loss 3.374 | lr 1.00e-04 | 15.2k tok/s | elapsed  0.6 min | left ~ 6.7 min
+iter    80/800 | loss 3.412 | lr 9.96e-05 | 35.9k tok/s | elapsed  0.6 min | left ~ 5.6 min
+--- iter 100: train 3.286 | val 3.266 | ppl 26.2
+iter   100/800 | loss 3.399 | lr 9.90e-05 | 15.0k tok/s | elapsed  0.8 min | left ~ 5.6 min
+iter   120/800 | loss 3.340 | lr 9.81e-05 | 33.3k tok/s | elapsed  0.9 min | left ~ 5.0 min
+iter   140/800 | loss 3.355 | lr 9.68e-05 | 33.1k tok/s | elapsed  1.0 min | left ~ 4.6 min
+--- iter 150: train 3.238 | val 3.245 | ppl 25.7
+iter   160/800 | loss 3.323 | lr 9.53e-05 | 14.0k tok/s | elapsed  1.2 min | left ~ 4.6 min
+iter   180/800 | loss 3.387 | lr 9.35e-05 | 33.9k tok/s | elapsed  1.2 min | left ~ 4.3 min
+--- iter 200: train 3.196 | val 3.219 | ppl 25.0
+>>>   ...  --Então, é o meu nome...  --Nunca o senhor sabe?  --Nunca o senhor nos conforta?  Em todo o caso, quando a senhora não teve noticia nenhuma, elle não tem vontade alguma, e não se acha com ella a mesma cousa certa, e não se póde affirmar que o meu coração é que eu me
+iter   200/800 | loss 3.322 | lr 9.14e-05 | 13.9k tok/s | elapsed  1.4 min | left ~ 4.3 min
+iter   220/800 | loss 3.282 | lr 8.91e-05 | 34.4k tok/s | elapsed  1.5 min | left ~ 4.0 min
+iter   240/800 | loss 3.329 | lr 8.65e-05 | 34.8k tok/s | elapsed  1.6 min | left ~ 3.7 min
+--- iter 250: train 3.175 | val 3.191 | ppl 24.3
+iter   260/800 | loss 3.242 | lr 8.37e-05 | 16.2k tok/s | elapsed  1.8 min | left ~ 3.7 min
+iter   280/800 | loss 3.236 | lr 8.07e-05 | 34.1k tok/s | elapsed  1.9 min | left ~ 3.4 min
+--- iter 300: train 3.148 | val 3.215 | ppl 24.9
+iter   300/800 | loss 3.253 | lr 7.75e-05 | 14.7k tok/s | elapsed  2.0 min | left ~ 3.4 min
+iter   320/800 | loss 3.295 | lr 7.42e-05 | 34.6k tok/s | elapsed  2.1 min | left ~ 3.2 min
+iter   340/800 | loss 3.255 | lr 7.07e-05 | 34.6k tok/s | elapsed  2.2 min | left ~ 3.0 min
+--- iter 350: train 3.139 | val 3.195 | ppl 24.4
+iter   360/800 | loss 3.235 | lr 6.71e-05 | 16.3k tok/s | elapsed  2.4 min | left ~ 2.9 min
+iter   380/800 | loss 3.214 | lr 6.34e-05 | 34.4k tok/s | elapsed  2.4 min | left ~ 2.7 min
+--- iter 400: train 3.132 | val 3.199 | ppl 24.5
+>>>    a voz do Senhor, e a voz tremula e pallida.  --Tu não amas tu; que és tu que a tua tens.  --Bonita!  --Bonita e batia, mas que o olhar de Maria Luiza estendeu a mão para ella.  --Meu pae!  Quando, ás
+iter   400/800 | loss 3.245 | lr 5.97e-05 | 14.3k tok/s | elapsed  2.6 min | left ~ 2.6 min
+iter   420/800 | loss 3.249 | lr 5.59e-05 | 35.8k tok/s | elapsed  2.7 min | left ~ 2.4 min
+iter   440/800 | loss 3.183 | lr 5.22e-05 | 36.0k tok/s | elapsed  2.8 min | left ~ 2.3 min
+--- iter 450: train 3.117 | val 3.188 | ppl 24.2
+iter   460/800 | loss 3.238 | lr 4.84e-05 | 16.9k tok/s | elapsed  2.9 min | left ~ 2.2 min
+iter   480/800 | loss 3.207 | lr 4.47e-05 | 35.9k tok/s | elapsed  3.0 min | left ~ 2.0 min
+--- iter 500: train 3.117 | val 3.187 | ppl 24.2
+iter   500/800 | loss 3.199 | lr 4.11e-05 | 15.1k tok/s | elapsed  3.2 min | left ~ 1.9 min
+iter   520/800 | loss 3.253 | lr 3.76e-05 | 35.9k tok/s | elapsed  3.3 min | left ~ 1.8 min
+iter   540/800 | loss 3.259 | lr 3.42e-05 | 35.5k tok/s | elapsed  3.4 min | left ~ 1.6 min
+--- iter 550: train 3.098 | val 3.181 | ppl 24.1
+iter   560/800 | loss 3.158 | lr 3.09e-05 | 16.7k tok/s | elapsed  3.5 min | left ~ 1.5 min
+iter   580/800 | loss 3.192 | lr 2.78e-05 | 35.7k tok/s | elapsed  3.6 min | left ~ 1.4 min
+--- iter 600: train 3.077 | val 3.172 | ppl 23.9
+>>>    nunca lhe pareceu nada. O que não fez d'ella é que era a mesma. Comprehendeu que era preciso vencer o casamento, e pediu-lhe que não a cumprisse até a mesma cousa.  --Não é preciso desculpar um officio, disse elle.  --Não se lembra de lhe ter dito.  E, se
+iter   600/800 | loss 3.108 | lr 2.49e-05 | 16.2k tok/s | elapsed  3.8 min | left ~ 1.2 min
+iter   620/800 | loss 3.193 | lr 2.22e-05 | 35.8k tok/s | elapsed  3.8 min | left ~ 1.1 min
+iter   640/800 | loss 3.235 | lr 1.97e-05 | 35.0k tok/s | elapsed  3.9 min | left ~ 1.0 min
+--- iter 650: train 3.087 | val 3.143 | ppl 23.2
+iter   660/800 | loss 3.150 | lr 1.75e-05 | 16.4k tok/s | elapsed  4.1 min | left ~ 0.9 min
+iter   680/800 | loss 3.196 | lr 1.56e-05 | 35.6k tok/s | elapsed  4.2 min | left ~ 0.7 min
+--- iter 700: train 3.061 | val 3.179 | ppl 24.0
+iter   700/800 | loss 3.268 | lr 1.39e-05 | 16.8k tok/s | elapsed  4.3 min | left ~ 0.6 min
+iter   720/800 | loss 3.251 | lr 1.25e-05 | 35.3k tok/s | elapsed  4.4 min | left ~ 0.5 min
+iter   740/800 | loss 3.185 | lr 1.14e-05 | 35.4k tok/s | elapsed  4.5 min | left ~ 0.4 min
+--- iter 750: train 3.070 | val 3.173 | ppl 23.9
+iter   760/800 | loss 3.216 | lr 1.06e-05 | 14.8k tok/s | elapsed  4.7 min | left ~ 0.2 min
+iter   780/800 | loss 3.188 | lr 1.02e-05 | 35.7k tok/s | elapsed  4.7 min | left ~ 0.1 min
+--- iter 800: train 3.075 | val 3.164 | ppl 23.7
+>>>   .  --Ainda não ha só quem sabe que é melhor que ella é.  --Realmente, creio que não.  --Ah! não! não é má, é bonita!  E eu, ao menos, não sei que lhe peço do gosto, e dahi em diante, que se eu não vim de fóra, mas eu não
+done. best val loss 3.143 -> out/finetune/ckpt.pt, curve data -> out/finetune/log.csv, samples during training -> out/finetune/snapshots.jsonl

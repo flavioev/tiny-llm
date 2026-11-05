@@ -1,0 +1,36 @@
+device=mps | params=0.66M | train tokens=1.19M | val tokens=0.13M
+tokens/step=2048 | epochs over the data ≈ 0.9
+--- iter 0: train 7.626 | val 7.615 | ppl 2028.4
+iter     0 | loss 7.623 | lr 2.00e-05 | 1.5k tok/s
+iter    20 | loss 7.177 | lr 4.20e-04 | 217.2k tok/s
+iter    40 | loss 6.499 | lr 8.20e-04 | 228.7k tok/s
+iter    60 | loss 6.265 | lr 9.99e-04 | 245.1k tok/s
+iter    80 | loss 5.992 | lr 9.90e-04 | 249.2k tok/s
+--- iter 100: train 5.687 | val 5.670 | ppl 290.0
+iter   100 | loss 5.656 | lr 9.73e-04 | 186.1k tok/s
+iter   120 | loss 5.591 | lr 9.47e-04 | 242.3k tok/s
+iter   140 | loss 5.399 | lr 9.14e-04 | 248.8k tok/s
+iter   160 | loss 5.210 | lr 8.74e-04 | 249.4k tok/s
+iter   180 | loss 5.234 | lr 8.27e-04 | 249.4k tok/s
+--- iter 200: train 5.055 | val 5.140 | ppl 170.7
+iter   200 | loss 5.073 | lr 7.75e-04 | 186.3k tok/s
+iter   220 | loss 5.147 | lr 7.19e-04 | 249.7k tok/s
+iter   240 | loss 4.925 | lr 6.59e-04 | 249.5k tok/s
+>>>               D.  --Parou-se.     --Va, o rosto de outra?  --Thhl. Sá eu, a filha dos gem de um reve. Eva a mesma.  --Rubião era que não os desfia.   A
+iter   260 | loss 4.917 | lr 5.97e-04 | 8.4k tok/s
+iter   280 | loss 4.792 | lr 5.34e-04 | 241.1k tok/s
+--- iter 300: train 4.836 | val 4.834 | ppl 125.7
+iter   300 | loss 4.921 | lr 4.72e-04 | 180.4k tok/s
+iter   320 | loss 4.746 | lr 4.11e-04 | 239.6k tok/s
+iter   340 | loss 4.731 | lr 3.53e-04 | 246.2k tok/s
+iter   360 | loss 4.783 | lr 2.98e-04 | 245.4k tok/s
+iter   380 | loss 4.667 | lr 2.49e-04 | 246.3k tok/s
+--- iter 400: train 4.651 | val 4.691 | ppl 109.0
+iter   400 | loss 4.694 | lr 2.05e-04 | 183.4k tok/s
+iter   420 | loss 4.674 | lr 1.68e-04 | 230.8k tok/s
+iter   440 | loss 4.693 | lr 1.39e-04 | 247.1k tok/s
+iter   460 | loss 4.680 | lr 1.17e-04 | 245.5k tok/s
+iter   480 | loss 4.686 | lr 1.04e-04 | 245.4k tok/s
+--- iter 500: train 4.591 | val 4.692 | ppl 109.1
+>>>   Em-ni, quando o que me se lhe ha um homem de outra, e o que a procreto indorica. E eu é que d'ave ou não, como um do meu frata, se não me ia com elle de outra, em que a porta, sem o que eu não quero ser um remo.  Megados
+done. best val loss 4.691 -> out/ckpt.pt, curve data -> out/log.csv

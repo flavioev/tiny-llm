@@ -1,0 +1,21 @@
+# environment and caches
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# data, checkpoints and training outputs (rebuilt by the scripts; 40-500 MB)
+data/
+out/
+showcase/run1/ckpt.pt
+
+# local backups made while editing
+backup_before_comments/
+backup_before_run2_comments/
+
+# personal study material, not published
+lesson/
+
+# personal roadmap, not published
+PARKING_LOT.md

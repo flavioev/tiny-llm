@@ -1,0 +1,123 @@
+['C', 'ap', 'itu'] ['C', 'ap', 'it', 'ú']
+--- pretrained | 'Capitú'
+Capitú.
+
+Ai 1
+
+J
+
+.
+
+Ai !
+
+Ai !
+
+Ai !
+
+Thomaz (Piolho)
+
+Calcula-se :
+
+E a gente !
+
+Ai !
+
+E que vé !
+
+Gallieu (Piegas)
+
+Homem !
+
+Meusinha Senhora
+
+--- fine-tuned | 'Capitú'
+Capitú achou um grande silencio, o mais baixo com a ponta de pedra. Sentou-se nos olhos com os olhos nella. Estacio inclinou-se novamente para ella.
+
+--Que é? perguntou ella sorrindo.
+
+--Não digo nada, disse-lhe então.
+
+--Não; mas o que tem razão me parece?
+
+Luiz Alves approximou-se
+
+--- pretrained | 'Capitú olhou para mim e'
+Capitú olhou para mim e para quem a creio, que mais tarde, a quem o meu coração não tinha, que a quem eu tinha, que até hoje tinha que pedir me dar uma palavra para o que me faz mal de si.
+
+Uma vez era o meu pobre amor, quando me queimava o anjo, que ella lhe deu o coração que lhe dê, quando me deu a ti a mulher que me não curara.
+
+
+
+--- fine-tuned | 'Capitú olhou para mim e'
+Capitú olhou para mim e para mim, e disse-me mais baixo:
+
+--Minha mãe, não é a mesma cousa, disse-me elle.
+
+--Meu pae!
+
+O moço fez um aperto, para dizer que era o primeiro a ser um ar de curiosidade dos meus labios. Estacio recordava-me da minha parte, quando me perguntava a alguem. E ella respondeu:
+
+--
+
+--- pretrained | 'Nem por isso me zanguei.'
+Nem por isso me zanguei.
+
+Senhor, o mais pequeno com a popa de ferro , que fica próximo do S. Pedro, e do S. João me chamam do Cabo Verde, em cuja rua se está collocada uma grande bainha de agua, que se disparava dos muros que se abriram.
+
+E' que no anno de 1817, que se acham duas léguas de distancia, que corre
+
+--- fine-tuned | 'Nem por isso me zanguei.'
+Nem por isso me zanguei.
+
+SCENAII
+
+MARCAVALA
+
+Marianna?
+
+DIOGO
+
+Sim, sim; mas que me faz mal de dizer isto?
+
+MARIA
+
+Talvez a senhora que está tão boa.)
+
+MAGALHÃES
+
+A senhora não me parece?
+
+D. CARLOTA
+
+De que
+
+--- pretrained | 'Ao verme que primeiro roeu'
+Ao verme que primeiro roeu para me sentir!
+
+— 92 —
+
+— Nunca ! — perguntou D. Maria, que lhe disse.
+
+— Não me pergunto, que me deixeis de dizer...
+
+— Que me importa?
+
+— Pois diziam que estás a dizer que a menina não é outra cousa... que vôs, se me não faltares muito...
+
+— Está muito a pedir
+
+--- fine-tuned | 'Ao verme que primeiro roeu'
+Ao verme que primeiro roeu parar a chuva, mais tarde, a ponta de pedra em S. Clemente. Antes de ficar só, disse ella; logo depois, o somno que me faz mal de cima.
+
+--Está bom? perguntou Sophia.
+
+--Não posso que lhe fale com ella?
+
+--Não; depois...
+
+--Nunca me acudiu?
+
+--De que
+
+pretrained [(' o', 0.252), (' elle', 0.112), (' a', 0.102), (' mim', 0.032), (' ella', 0.029), (' um', 0.029)]
+fine-tuned [(' elle', 0.226), (' o', 0.219), (' ella', 0.097), (' a', 0.084), (' mim', 0.074), (' dentro', 0.044)]

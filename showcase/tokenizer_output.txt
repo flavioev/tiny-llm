@@ -1,0 +1,30 @@
+corpus: 3.91M characters
+merge 1/1791: (32, 100) -> 256 ' d'
+merge 101/1791: (297, 97) -> 356 ' uma'
+merge 201/1791: (303, 290) -> 456 ' esta'
+merge 301/1791: (115, 314) -> 556 'sim'
+merge 401/1791: (355, 272) -> 656 ' porque'
+merge 501/1791: (288, 393) -> 756 ' viu'
+merge 601/1791: (257, 565) -> 856 ' aqui'
+merge 701/1791: (417, 521) -> 956 ' amigo'
+merge 801/1791: (489, 276) -> 1056 ' dizia'
+merge 901/1791: (307, 316) -> 1156 'anha'
+merge 1001/1791: (258, 114) -> 1256 ' er'
+merge 1101/1791: (364, 300) -> 1356 ' cava'
+merge 1201/1791: (1180, 422) -> 1456 ' janella'
+merge 1301/1791: (99, 287) -> 1556 'cum'
+merge 1401/1791: (477, 1558) -> 1656 ' Quincas'
+merge 1501/1791: (919, 1305) -> 1756 ' qualquer'
+merge 1601/1791: (277, 110) -> 1856 'ern'
+merge 1701/1791: (78, 111) -> 1956 'No'
+merge 1791/1791: (1189, 300) -> 2046 ' achava'
+tokenizer trained in 44s, vocab_size=2048
+{
+  "vocab_size": 2048,
+  "train_tokens": 1190764,
+  "val_tokens": 132313,
+  "chars_per_token": 2.958746921003086
+}
+
+How your tokenizer cuts text:
+ de|ram| cur|so| á| al|c|unha|,| que| af|inal| pe|gou|.| Nem| por| isso| me| |z|an|guei|.| Co|ntei| a| an|ec|do|ta| aos| amigos| da| cidade|,| e| elles|,| por| graça|,| cham|am|-|me| assim|,| alguns| em| b|i|lhe|tes|:| «|D|om| Cas|m|ur|ro|,| dom|in|go| vou| jantar| co

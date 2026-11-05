@@ -1,0 +1,48 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+downloading the Project Gutenberg catalogue (~15 MB) ...
+Gutenberg catalogue: 652 Portuguese-language texts
+  [   1] 1/652 | Lendas do sul                                      |    0.0M words so far
+  [  25] 40/652 | Os Simples                                         |    1.0M words so far
+  [  50] 76/652 | Trovas do Bandarra
+natural da Villa de Trancoso,  |    1.6M words so far
+  [  75] 103/652 | Ruy o escudeiro: Conto                             |    2.2M words so far
+  [ 100] 158/652 | A Lenda da Meia-Noite                              |    2.8M words so far
+  [ 125] 192/652 | José Estevão
+(Edição do centenario)                |    3.4M words so far
+  [ 150] 227/652 | O Engeitado                                        |    4.2M words so far
+  [ 175] 252/652 | Diffinição da sécia                                |    4.9M words so far
+  [ 200] 286/652 | Maldita felicidade                                 |    5.5M words so far
+  [ 225] 320/652 | Na Guella do Leão                                  |    6.2M words so far
+  [ 250] 345/652 | Manuel de Moraes: Chronica do Seculo XVII          |    7.0M words so far
+  [ 275] 381/652 | O Oraculo do Passado, do presente e do Futuro (5/7 |    7.6M words so far
+  [ 300] 413/652 | Portugal enfermo por vicios, e abusos de ambos os  |    8.2M words so far
+  [ 325] 439/652 | Carta de Elmano da Cunha em resposta a outra Bom-s |    8.9M words so far
+  [ 350] 467/652 | Estrellas Propícias                                |    9.5M words so far
+  [ 375] 498/652 | Livro de Consolação: Romance                       |   10.0M words so far
+  [ 400] 524/652 | Memoria sobre a cultura da Urumbeba e sobre criaçã |   10.5M words so far
+  [ 425] 560/652 | A Biblia Sagrada, Contendo o Velho e o Novo Testam |   12.5M words so far
+  [ 450] 585/652 | Inicios da Renascença em Portugal: Quinta e Palaci |   13.8M words so far
+  [ 475] 614/652 | A fallencia                                        |   15.0M words so far
+  [ 500] 641/652 | Cantos                                             |   16.6M words so far
+Gutenberg: kept 510, skipped {'too short': 82, 'duplicate title': 39, 'reference work': 7, 'machado': 14}
+after Gutenberg: 510 documents, 17.1M words
+dictionary from Gutenberg text: 128,111 words
+PleIAs: downloading portuguese_pd_1.parquet (~700 MB; cached by huggingface_hub) ...
+  kept   100 |   22.1M words | last quality 0.89 | Discurso recitado pelo excellentissimo senhor Rica
+  kept   200 |   28.5M words | last quality 0.91 | Reflexões sobre hum paragrapho do Astro da Lusitan
+  kept   300 |   34.2M words | last quality 0.95 | Eu el-rei faço saber aos que este alvará virem: : 
+  kept   400 |   39.8M words | last quality 0.89 | Memorias do Bom Jesus do Monte : e roteiro ou abre
+  kept   500 |   46.1M words | last quality 0.91 | Carta escrita
+PleIAs: downloading portuguese_pd_2.parquet (~700 MB; cached by huggingface_hub) ...
+  kept   600 |   51.9M words | last quality 0.90 | Reflexões sobre o commercio, sobre as alfandegas, 
+  kept   700 |   57.9M words | last quality 0.94 | Sonetos
+  kept   800 |   63.9M words | last quality 0.92 | Esboceto historico da veneranda imagem do Senhor J
+  kept   900 |   70.3M words | last quality 0.90 | Eu o Principe Regente faço saber aos que o present
+  kept  1000 |   76.2M words | last quality 0.89 | Archivos do Museu Nacional
+PleIAs: downloading portuguese_pd_3.parquet (~700 MB; cached by huggingface_hub) ...
+  kept  1100 |   82.2M words | last quality 0.89 | Apologia de Camões, contra as Reflexões críticas d
+  kept  1200 |   87.5M words | last quality 0.94 | Romance patrio maritimo em quatro estancias : em q
+PleIAs quality scores: median 0.82, 10th pct 0.60, 90th pct 0.92
+PleIAs: {'low quality': 3124, 'kept': 1250, 'ocr noise': 194, 'truncated': 149, 'reference work': 130}
+
+1869 documents, 545 MB -> data/pretrain/corpus.txt  (23 min)
